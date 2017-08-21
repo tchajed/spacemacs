@@ -1,0 +1,23 @@
+#+TITLE: Pony layer
+
+* Table of Contents                                         :TOC_4_gh:noexport:
+- [[#description][Description]]
+- [[#install][Install]]
+  - [[#layer][Layer]]
+  - [[#pony][Pony]]
+
+* Description
+This layer adds support for the [[https://www.ponylang.org/][Pony]] language.
+
+* Install
+** Layer
+To use this configuration layer, add it to your =~/.spacemacs=. You will need to
+add =pony= to the existing =dotspacemacs-configuration-layers= list in this
+file.
+
+** Pony
+Pony can be installed using Homebrew (note the formula is called ~ponyc~):
+
+#+BEGIN_SRC sh
+brew install ponyc
+#+END_SRC
